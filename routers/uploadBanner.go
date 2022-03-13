@@ -4,10 +4,9 @@ import (
 	"io"
 	"net/http"
 	"os"
+	"redsocial/db"
+	"redsocial/models"
 	"strings"
-
-	"github.com/thiagossjc/redsocial/db"
-	"github.com/thiagossjc/redsocial/models"
 )
 
 func UploadBanner(w http.ResponseWriter, r *http.Request) {

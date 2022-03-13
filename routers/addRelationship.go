@@ -3,8 +3,8 @@ package routers
 import (
 	"net/http"
 
-	"github.com/thiagossjc/redsocial/db"
-	"github.com/thiagossjc/redsocial/models"
+	"redsocial/db"
+	"redsocial/models"
 )
 
 func AddRelationship(w http.ResponseWriter, r *http.Request) {

@@ -3,9 +3,9 @@ package routers
 import (
 	"encoding/json"
 	"net/http"
+	"redsocial/models"
 
-	"github.com/thiagossjc/redsocial/db"
-	"github.com/thiagossjc/redsocial/models"
+	"redsocial/db"
 )
 
 //Modificar el Perfil del Usuário

@@ -4,13 +4,13 @@ import (
 	"net/http"
 	"redsocial/db"
 
-	"github.com/thiagossjc/redsocial/models"
+	"redsocial/models"
 )
 
 func RemoveRelationship(w http.ResponseWriter, r *http.Request) {
 	IDR := r.URL.Query().Get("id")
 	var relat models.Relationship
-	relat.erId = IdUserGlobal
+	relat.UserId = IdUserGlobal
 	relat.UserRelationshipId = IDR
 	status, err := db.DeleteRelationship(relat)
 	if err != nil || status == false {

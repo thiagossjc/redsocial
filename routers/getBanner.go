@@ -1,10 +1,10 @@
 package routers
 
 import (
-	"github.com/thiagossjc/redsocial/db"
 	"io"
 	"net/http"
 	"os"
+	"redsocial/db"
 )
 
 func GetBanner(w http.ResponseWriter, r *http.Request) {

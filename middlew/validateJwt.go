@@ -2,8 +2,7 @@ package middlew
 
 import (
 	"net/http"
-
-	"github.com/thiagossjc/redsocial/routers"
+	"redsocial/routers"
 )
 
 //Validar un token formato JWT Toto middlew devolver una funcción

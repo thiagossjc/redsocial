@@ -5,7 +5,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/thiagossjc/redsocial/models"
+	"redsocial/models"
+
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )

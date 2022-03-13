@@ -1,10 +1,10 @@
 package jwt
 
 import (
+	"redsocial/models"
 	"time"
 
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/thiagossjc/redsocial/models"
 )
 
 //Generar Token

@@ -4,12 +4,11 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"redsocial/middlew"
+	"redsocial/routers"
 
 	"github.com/gorilla/mux"
 	"github.com/rs/cors" //cors son los permisos que doy a mi api sea acesible de cualquer lugar
-
-	"github.com/thiagossjc/redsocial/middlew"
-	"github.com/thiagossjc/redsocial/routers"
 )
 
 /*Manejadores seteo mi puerto, el handre y pobo*/

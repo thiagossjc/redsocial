@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/thiagossjc/redsocial/models"
+	"redsocial/models"
 )
 
 func DeleteRelationship(Relat models.Relationship) (bool, error) {

@@ -3,8 +3,7 @@ package routers
 import (
 	"encoding/json"
 	"net/http"
-
-	"github.com/thiagossjc/redsocial/db"
+	"redsocial/db"
 )
 
 //Ver Perfil permite extraer los valores del Perfil

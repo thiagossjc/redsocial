@@ -1,7 +1,8 @@
 package db
 
 import (
-	"github.com/thiagossjc/redsocial/models"
+	"redsocial/models"
+
 	"golang.org/x/crypto/bcrypt"
 )
 

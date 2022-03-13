@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/thiagossjc/redsocial/db"
+	"redsocial/db"
 )
 
 //LeoTweets

@@ -2,8 +2,7 @@ package middlew
 
 import (
 	"net/http"
-
-	"github.com/thiagossjc/redsocial/db"
+	"redsocial/db"
 )
 
 //middlew siempre tinen que devolver el mismo tipo de dado que recebió

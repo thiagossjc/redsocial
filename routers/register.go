@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/thiagossjc/redsocial/db"
+	"redsocial/db"
 
-	"github.com/thiagossjc/redsocial/models"
+	"redsocial/models"
 )
 
 /*Funccion para criar en la base de dados Register de Usuarios*/

@@ -2,9 +2,8 @@ package main
 
 import (
 	"log"
-
-	"github.com/thiagossjc/redsocial/db"
-	"github.com/thiagossjc/redsocial/handlers"
+	"redsocial/db"
+	"redsocial/handlers"
 )
 
 func main() {

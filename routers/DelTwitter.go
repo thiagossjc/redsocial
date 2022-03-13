@@ -1,8 +1,8 @@
 package routers
 
 import (
-	"github.com/thiagossjc/redsocial/db"
 	"net/http"
+	"redsocial/db"
 )
 
 func DelTwitter(w http.ResponseWriter, r *http.Request) {

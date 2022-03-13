@@ -6,8 +6,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/thiagossjc/redsocial/db"
-	"github.com/thiagossjc/redsocial/models"
+	"redsocial/db"
+
+	"redsocial/models"
 )
 
 func UploadAvatar(w http.ResponseWriter, r *http.Request) {

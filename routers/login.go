@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/thiagossjc/redsocial/db"
-	jwt "github.com/thiagossjc/redsocial/jwt"
-	"github.com/thiagossjc/redsocial/models"
+	"redsocial/db"
+	jwt "redsocial/jwt"
+	"redsocial/models"
 )
 
 func Login(w http.ResponseWriter, r *http.Request) {

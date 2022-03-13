@@ -4,9 +4,10 @@ import (
 	"errors"
 	"strings"
 
+	"redsocial/db"
+	"redsocial/models"
+
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/thiagossjc/redsocial/db"
-	"github.com/thiagossjc/redsocial/models"
 )
 
 //Email valor de Email usa en todos los endpoints

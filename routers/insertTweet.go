@@ -3,10 +3,9 @@ package routers
 import (
 	"encoding/json"
 	"net/http"
+	"redsocial/db"
+	"redsocial/models"
 	"time"
-
-	"github.com/thiagossjc/redsocial/db"
-	"github.com/thiagossjc/redsocial/models"
 )
 
 //grabar el twitter en la base de dados
