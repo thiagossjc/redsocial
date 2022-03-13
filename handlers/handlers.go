@@ -27,8 +27,7 @@ func Manejadores() {
 	router.HandleFunc("/getAvatar", middlew.CheckDB(routers.GetAvatar)).Methods("GET")
 	router.HandleFunc("/getBanner", middlew.CheckDB(routers.GetBanner)).Methods("GET")
 	router.HandleFunc("/addRelationship", middlew.CheckDB(middlew.ValidateJWT(routers.AddRelationship))).Methods("POST")
-	router.HandleFunc("/addRelationship", middlew.CheckDB(middlew.ValidateJWT(routers.AddRelationship))).Methods("POST")
-	router.HandleFunc("/removeTwitter", middlew.CheckDB(middlew.ValidateJWT(routers.RemoveRelationship))).Methods("DEL")
+	router.HandleFunc("/removeRelationship", middlew.CheckDB(middlew.ValidateJWT(routers.RemoveRelationship))).Methods("DEL")
 	PORT := os.Getenv("PORT")
 	if PORT == "" {
 		PORT = "8080"
